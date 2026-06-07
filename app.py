@@ -138,6 +138,8 @@ ax.axhline(V0, linestyle="--", label="V - zaszczepieni")
 ax.set_title("Przebieg modelu SIRV")
 ax.set_xlabel("Dzień")
 ax.set_ylabel("Liczba osób")
+ax.set_yscale("log")
+ax.set_ylim(1, None)
 ax.legend()
 ax.grid(alpha=0.4)
 
